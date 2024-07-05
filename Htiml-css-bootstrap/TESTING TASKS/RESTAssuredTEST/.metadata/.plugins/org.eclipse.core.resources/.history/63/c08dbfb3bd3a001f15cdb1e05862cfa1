@@ -1,0 +1,5 @@
+endpoint,username,password
+/users/demo,user1,User@2k1
+/users,user10,User@2k10
+/users,user12,User@2k22
+/users,user20,User@2k20

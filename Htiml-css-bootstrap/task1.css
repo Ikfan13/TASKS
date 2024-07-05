@@ -1,0 +1,33 @@
+.Border{
+    border: solid gold;
+    height: 400px;
+    width: 800px;
+}
+.hulk{
+    position: relative;
+    top: -20px;
+    left: 4px;
+}
+
+.ironman
+{
+    position: relative;
+    left: 682px;
+    bottom: 66px;
+}
+.hawkeye
+{
+    position: relative;
+    top: 262px;
+    left: 674px;
+}
+.blackwidow
+{
+    text-align: center;
+}
+.Thor
+{
+    position: relative;
+    /* bottom: -153px; */
+    top: 169px;
+}

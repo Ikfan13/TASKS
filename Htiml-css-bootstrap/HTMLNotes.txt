@@ -1,0 +1,133 @@
+HTML:
+  HTML is used to create a structure of website or web application.
+  It is use to display data to user on browser
+  It is tag Basis Language
+  Hypertext Markup Language
+  Its latest version is html5
+===============================================================================================================================================================================
+What is Tag?
+  <tag>
+  In html we have two types of tags
+    1.Paired Tags <StartTag></EndTag>
+    2.Unpaired Tag:<singleTag>
+  To display all information  for that we have tag
+
+Steps to Create HTML file
+Step1:create html file by writting filename.html
+Step2:write code
+step3:execute file on browser    
+
+===============================================================================================================================================================================
+<DOCTYPE html>:It is a search engine.it is html type of document belong to html5
+
+Head:It contains external link and metadata in it
+
+Body:It is used to display the data or information on the browser
+
+<h1-h6></h1-h6>-IT is a Heading Tag with different size.
+
+<p></p>-It is a paragraph tag
+ 
+<!-- THIS IS NESTING TAG -->-This is a comment tag KEYWORD-Ctrl+/
+
+Title tag-it is used to display the title in the browser.
+===============================================================================================================================================================================
+ELEMENT:
+<StartTag attribute="vakue">content or info</EndTag>
+
+attribute:it will give us info about tag.
+          it will comes in key value paired format
+          it always write in starting tag.
+
+In Html we have two types of elements:
+      1.BLOCK ELEMENT-the element which it takes 100% width of its screen and 
+                      it always start on a new line.
+                      eg:h1h6,p,ol,ul,table,form
+      
+      2.Inline ELEMENT-The element which it takes required width of it.it will never start on newline.
+         eg:b,i,u,img,a
+
+      !+enter will give html syntax
+
+      Meta Tag:IT provide Information about data.
+       <meta charset="UTF-8">:UTF-8-Unicode Transformation Format 8 bit
+===============================================================================================================================================================================
+LIST:IT is a collection of items
+In html we have three types of lists
+!.Ordered Lists-<ol></ol>
+2.Unordered List-<ul></ul>
+3.Discription List- IT contains three tags.it introduced in html5
+                    dl:Description List
+                    dt:define term
+                    dd:define description      
+
+what is difference between html and html5?
+what are the features of html5?
+===============================================================================================================================================================================
+Symantic element introduce:the elements which has a specific meaning which eg:header,footer,nav,section,address
+New input type,new tag and attribute introduce:
+Multimedia element introduce:
+HTML API introduce:
+   1.Geolocation:It returns current position,for this in your system,
+   2.Drag and Drop:grabing on object from one location and drag at another place.
+   3.web-storage:It is use to store data on browswer
+     1.local storage:used to store data permanently
+     2.session storage:used to store data for a limited time
+   4.web-worker:it is a small js code which execute at backend of web aopplication without affecting its current execution
+   5.SSE(server sent Event):it allows to get automatic update from server
+
+   Why there is necessity to introduce semantic elements?
+    In old html there were no symantic element so developers use their own naming convention this may difficult
+     for the search engine to identify the correcrt content for the websites or web application.it helps both search enggine and 
+     developers to identify the correct contect into ur application
+===============================================================================================================================================================================
+iframe:
+It is use to create small window,
+insert google map location in webpage,
+   1.search location
+   2.click on shared=>embed a map =>copy url
+   3.paste url in webpage.
+insert youtube video,
+insert one webpage to another
+
+*/+++++++======================================================================================================================================================
+
+LINK:
+ to redirect from one page to another page.
+ in html we use anchor tags to create link.
+
+ <a></a>
+ <a href="url></a>
+==========================================================================================================================================================================
+ TABLE:
+ It is a collection of rows and columns
+
+ th= table Heading
+ tr=table row
+ td= table data
+ note:In table we always create row and then a columns.
+
+thead
+tbody
+==========================================================================================================================================================================
+FORM:
+It is used to get data from the user
+button:button,submit,reset,menu
+
+to submit form data we have two method
+
+get:
+     when our aim is to create small and simple form
+     we do not submit essential data
+     user data will visible on browser url
+     browser url has character limitation;
+
+post:
+     when we are used to submit confidential data for that we can use post method
+     data will be not visible to user;
+     there is no character limitation
+
+
+required:
+minlength:
+maxlength:

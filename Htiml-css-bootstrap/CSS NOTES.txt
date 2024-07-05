@@ -1,0 +1,120 @@
+CSS:
+    IT is used to design website or webapp
+    it makes web app attractive,responsive
+    latest version of css is css3
+    css stand for cascading style sheet
+
+    Three types of Css:
+        
+        Inline css:In starting tag we write style attribute with property and value
+
+        Internal css:In Html file we use style tag and in that we write css code.
+             syntax:Selector{
+                property:value;
+                property:value;
+                property:value;
+                property:value;
+    
+             }
+
+        External css:In this we create seperate css file that css file imported to html file by using link tag
+                
+                 syntax:Selector{
+                property:value;
+                property:value;
+                property:value;
+                property:value;
+    
+             }
+
+
+
+        $ Inline CSS has the highest priority
+        * Default font size is 16px
+
+    ===========================================================================================================================================================
+    SELECTORS:
+     Selecting an element
+     1.element name Selector:element name to aplly css property
+     2.group Selector:we can make a group of selector name
+     3.class Selector:when we have to apply css property to multiple element
+     4.id Selector:when we have to apply css property to single element
+     5.Universal Selector:(*)when we have to apply css properties to all elements
+
+
+
+     Box Model:
+     1.Content:it can be any text or image
+     2.padding:clear area between contwent or element border
+     border:a line drawn around an element
+     margine:used to clear area outside the border
+     ================================================================================================
+     Position property:
+     it is used to move element after left,right,top and bottom value.
+     because every element has by default position:static that why element will never move after
+     after applying left,right,top and bottom value
+
+     posotion:static default
+     position:relative;//element can move by using left,right,bottom,top
+
+    =================================================================================================
+    Background Image:
+
+    opacity:it is used to make an element background transparent
+            its value vary  between 0 and 1;
+    visibility:hidden;element will be hidden and space never occupied by adjqacent element
+    display:none;  element will be hidden and space  occupied by adjacent element
+
+   display:block is used to convert inline element into block
+   display:inline:it is use to convert in block element into line
+   display:inline-block:used to when you have height and width to inline element
+
+=====================================================================================================
+float:
+it is used to to float element either left or right  direction
+float right
+float left 
+float none
+float inherit
+=====================================================================================================
+overflow:
+it is used to fit big content into small area.
+overflow :visible;default;
+overflow :hidden;outside cintent will hidden
+overflow :scroll it will add scrol bar;
+overflow ;auto;it will add scroll bar when necessary
+=====================================================================================================
+Navigation bar:
+it is a colection of links,which allows to redirect anither location
+1.Horizontal
+2.vertical
+=====================================================================================================
+pseudo class:
+those are inbuilt class provided by css to us.
+1.link,visited,hover,active
+
+=====================================================================================================
+Combinator:it is used to tells the relation between SELECTORS
+1.Descendant selector:
+2.child selector:
+3.adjacent selector:
+4.general selector:
+=====================================================================================================
+box-sizing:it include element padding and border size in its actual width
+
+=====================================================================================================
+MediaQuery:
+          It is used to apply different style rule to an element accoriding to different screen width
+          @media screen and (breakpoint)
+          {
+            css property for selector or element
+          }
+          max-width:css property will be applicable till its maximum define width;
+          min-width:css property will applicable  from its minimum width to above;
+
+          screen width >=1200 xl
+          screen width >=992 l
+          screen width >=768 m
+          screen width >=576 sm
+          screen width <576px xs
+          

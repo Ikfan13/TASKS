@@ -1,0 +1,22 @@
+BootStrap:It is html,css and javascript framework,
+which is used to make web app attractive,responsive and mobile friendly,
+it provide inbuilt classes,latest version of bootsterap is BootStrap5
+
+There are two ways to use BootStrap
+1.By using CDN(Content Delivery Network) link;
+2.By Downloading;
+
+official website for bootstrap is 
+  getbootstrap.com
+  \how to copy and use cdn link
+  heading classes:display 1 -display-6
+
+
+  .container:it will aplly 15px margin from left and right side of an element
+  .container:fluid:it will take full width of screen
+
+  note:above two classes use to wrap element or Content
+
+  COLOR CLASSES:
+  .text-danger,warning,success-it is used to change the color of text
+  .bg-danger,primary,secondary,warning-it is used to apply background color

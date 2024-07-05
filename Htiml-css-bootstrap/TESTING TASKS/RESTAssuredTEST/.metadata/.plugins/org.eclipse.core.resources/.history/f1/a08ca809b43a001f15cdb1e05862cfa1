@@ -1,0 +1,31 @@
+package com.APITEST;
+import static io.restassured.RestAssured.baseURI;
+import static io.restassured.RestAssured.given;
+import static org.hamcrest.Matchers.equalTo;
+
+import org.json.simple.JSONObject;
+import org.testng.annotations.Test;
+
+import io.restassured.http.ContentType;
+
+import static org.hamcrest.Matchers.hasItems;
+
+import java.util.HashMap;
+import java.util.Map;
+public class PutPatchDeleteRequest {
+	@Test
+	public void PUTRequest() {
+		JSONObject request=new JSONObject();
+		
+		request.put("name", "Mohamed Ikfan");
+		request.put("job", "Trainee");
+		
+		System.out.println(request.toJSONString());
+		
+		baseURI="http://localhost:8888/";
+		
+		given().header("Content-Type","application/json").
+		contentType(ContentType.JSON).accept(ContentType.JSON).
+		body(request.toJSONString()).post("/users").then().statusCode(201).log().all();
+	}
+}

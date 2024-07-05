@@ -1,0 +1,13 @@
+package com.APITEST;
+
+import org.testng.annotations.Test;
+
+import io.restassured.RestAssured;
+
+public class FirstTest {
+    @Test
+	public void GETAPITEST()
+	{
+		RestAssured.get(https://reqres.in/api/users?page=2);
+	}
+	}

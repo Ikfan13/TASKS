@@ -1,0 +1,68 @@
+header{
+    position: sticky;
+    top:0px;
+    z-index: 1;
+    background-color: lightslategray;
+    color:red;
+    font-size: 30px;
+    border-bottom: red 5px solid;
+    
+}
+.logo
+{
+    border: 3px solid red;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+.title
+{
+    font-size: 40px;
+    color:red;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-shadow: 4px 0px 8px black;
+    
+    
+
+}
+.pos-relative
+{
+    border: solid royalblue;
+    width: 200px;
+    position: relative;
+    left: 25px;
+}
+.parent
+{
+    border: solid 3px green;
+    width: 450px;
+    height: 200px;
+    position: relative;
+    left: 40px;
+}
+.child
+{
+    border: solid 3px navy;
+    width: 200px;
+    position: absolute;
+    left: 110px;
+    bottom: 110px;
+}
+.pos-fixed
+{
+    position: fixed;
+    width: 50px;
+    right: 0px;
+    top: 370px;
+}
+.Good
+{
+    font-size: 30px;
+    color: cyan;
+    background: black;
+    border: solid blue 4px;
+    position: sticky;
+    top: 0px;
+    bottom: 0px;
+    z-index: 1;
+}

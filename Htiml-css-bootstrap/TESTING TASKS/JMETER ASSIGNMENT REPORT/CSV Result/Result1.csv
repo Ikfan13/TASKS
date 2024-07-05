@@ -1,0 +1,31 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1719920499900,2412,HomePage,200,OK,ChangePond 1-1,text,true,,57361,240,1,1,https://www.changepond.com/,472,0,258
+1719920499900,483,HomePage-0,301,Moved Permanently,ChangePond 1-1,text,true,,513,120,1,1,http://www.changepond.com/,472,0,258
+1719920500386,1926,HomePage-1,200,OK,ChangePond 1-1,text,true,,56848,120,1,1,https://www.changepond.com/,1622,0,1429
+1719920502317,389,Cloud Services,200,OK,ChangePond 1-1,text,true,,67096,288,1,1,https://www.changepond.com/services/cloud-services/,193,0,0
+1719920502317,193,Cloud Services-0,301,Moved Permanently,ChangePond 1-1,text,true,,560,144,1,1,http://www.changepond.com/services/cloud-services/,193,0,0
+1719920502511,195,Cloud Services-1,200,OK,ChangePond 1-1,text,true,,66536,144,1,1,https://www.changepond.com/services/cloud-services/,183,0,0
+1719920502707,402,Digital Assurance,200,OK,ChangePond 1-1,text,true,,52688,294,1,1,https://www.changepond.com/services/digital-assurance/,208,0,0
+1719920502707,208,Digital Assurance-0,301,Moved Permanently,ChangePond 1-1,text,true,,566,147,1,1,http://www.changepond.com/services/digital-assurance/,208,0,0
+1719920502916,193,Digital Assurance-1,200,OK,ChangePond 1-1,text,true,,52122,147,1,1,https://www.changepond.com/services/digital-assurance/,182,0,0
+1719920503111,415,Product Design,200,OK,ChangePond 1-1,text,true,,24607,310,1,1,https://www.changepond.com/engineering-services/product-design,215,0,0
+1719920503111,215,Product Design-0,301,Moved Permanently,ChangePond 1-1,text,true,,582,155,1,1,http://www.changepond.com/engineering-services/product-design,215,0,0
+1719920503327,199,Product Design-1,200,OK,ChangePond 1-1,text,true,,24025,155,1,1,https://www.changepond.com/engineering-services/product-design,194,0,0
+1719920503527,372,Design Automation,200,OK,ChangePond 1-1,text,true,,23414,316,1,1,https://www.changepond.com/engineering-services/design-automation,200,0,0
+1719920503527,200,Design Automation-0,301,Moved Permanently,ChangePond 1-1,text,true,,588,158,1,1,http://www.changepond.com/engineering-services/design-automation,200,0,0
+1719920503727,172,Design Automation-1,200,OK,ChangePond 1-1,text,true,,22826,158,1,1,https://www.changepond.com/engineering-services/design-automation,170,0,0
+1719920503899,379,Case Study,200,OK,ChangePond 1-1,text,true,,56542,282,1,1,https://www.changepond.com/resources/case-study/,192,0,0
+1719920503899,192,Case Study-0,301,Moved Permanently,ChangePond 1-1,text,true,,554,141,1,1,http://www.changepond.com/resources/case-study/,192,0,0
+1719920504091,187,Case Study-1,200,OK,ChangePond 1-1,text,true,,55988,141,1,1,https://www.changepond.com/resources/case-study/,181,0,0
+1719920504279,1726,Blog,200,OK,ChangePond 1-1,text,true,,138819,270,1,1,https://www.changepond.com/resources/blog/,730,0,0
+1719920504279,730,Blog-0,301,Moved Permanently,ChangePond 1-1,text,true,,336,135,1,1,http://www.changepond.com/resources/blog/,730,0,0
+1719920505010,995,Blog-1,200,OK,ChangePond 1-1,text,true,,138483,135,1,1,https://www.changepond.com/resources/blog/,586,0,0
+1719920506006,388,Location,200,OK,ChangePond 1-1,text,true,,36576,258,1,1,https://www.changepond.com/locations,202,0,0
+1719920506006,202,Location-0,301,Moved Permanently,ChangePond 1-1,text,true,,530,129,1,1,http://www.changepond.com/locations,202,0,0
+1719920506208,186,Location-1,200,OK,ChangePond 1-1,text,true,,36046,129,1,1,https://www.changepond.com/locations,182,0,0
+1719920506395,398,Contact,200,OK,ChangePond 1-1,text,true,,43662,254,1,1,https://www.changepond.com/contact,209,0,0
+1719920506395,209,Contact-0,301,Moved Permanently,ChangePond 1-1,text,true,,526,127,1,1,http://www.changepond.com/contact,209,0,0
+1719920506605,188,Contact-1,200,OK,ChangePond 1-1,text,true,,43136,127,1,1,https://www.changepond.com/contact,183,0,0
+1719920506794,397,About,200,OK,ChangePond 1-1,text,true,,65598,250,1,1,https://www.changepond.com/about,200,0,0
+1719920506794,200,About-0,301,Moved Permanently,ChangePond 1-1,text,true,,522,125,1,1,http://www.changepond.com/about,200,0,0
+1719920506995,196,About-1,200,OK,ChangePond 1-1,text,true,,65076,125,1,1,https://www.changepond.com/about,185,0,0

@@ -1,0 +1,45 @@
+header{
+    border: solid 3px darkgreen;
+    background-color: cadetblue;
+    font-size:xx-large;
+    color: maroon
+    
+    ;
+}
+img{
+    vertical-align: middle;
+    border-radius: 50%;
+    border:solid darkgreen;
+    
+}
+
+
+
+.nav-container
+{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    background-color: gray;
+    overflow: auto;
+}
+.nav-container a{
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px 5px;
+    color: lavenderblush;
+    
+}
+li
+{
+    float: left;
+}
+.nav-container a:hover
+{
+    background-color: cadetblue;
+    color: black;
+    font-size: 25px;
+    text-shadow: 5px 6px 8px;
+}

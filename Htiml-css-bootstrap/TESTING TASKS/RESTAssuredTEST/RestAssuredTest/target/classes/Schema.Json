@@ -1,0 +1,112 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "pname": "Mouse",
+      "price": 56000,
+      "company": "Hp"
+    },
+    {
+      "id": "2",
+      "pname": "Keyboard",
+      "price": 3000,
+      "company": "Changepond"
+    },
+    {
+      "id": "3",
+      "pname": "Laptop",
+      "price": 79000,
+      "company": "Amazon"
+    },
+    {
+      "id": "4",
+      "pname": "Monitor",
+      "price": 88000,
+      "company": "TCS"
+    },
+    {
+      "id": "5",
+      "pname": "GraphicsCard",
+      "price": 45000,
+      "company": "HCL"
+    },
+    {
+      "id": "6",
+      "pname": "EternetCable",
+      "price": 10000,
+      "company": "HCL"
+    },
+    {
+      "id": "ecaf",
+      "pname": "GPU",
+      "price": "20000",
+      "company": "Nvidia"
+    }
+  ],
+  "users": [
+    {
+      "userPass": "Ikfan@123",
+      "name": "Ikfan M",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "userid": "veera@gmail.com",
+      "userPass": "lol"
+    },
+    {
+      "id": "3",
+      "userid": "villu@gmail.com",
+      "userPass": "lol"
+    },
+    {
+      "id": "4",
+      "userid": "vaalu@gmail.com",
+      "userPass": "Rofl"
+    }
+  ],
+  "data": [
+    {
+      "id": "7",
+      "email": "michael.lawson@reqres.in",
+      "first_name": "Michael",
+      "last_name": "Lawson",
+      "avatar": "https://reqres.in/img/faces/7-image.jpg"
+    },
+    {
+      "id": "8",
+      "email": "lindsay.ferguson@reqres.in",
+      "first_name": "Lindsay",
+      "last_name": "Ferguson",
+      "avatar": "https://reqres.in/img/faces/8-image.jpg"
+    },
+    {
+      "id": "9",
+      "email": "tobias.funke@reqres.in",
+      "first_name": "Tobias",
+      "last_name": "Funke",
+      "avatar": "https://reqres.in/img/faces/9-image.jpg"
+    },
+    {
+      "id": "10",
+      "email": "byron.fields@reqres.in",
+      "first_name": "Byron",
+      "last_name": "Fields",
+      "avatar": "https://reqres.in/img/faces/10-image.jpg"
+    },
+    {
+      "id": "11",
+      "email": "george.edwards@reqres.in",
+      "first_name": "George",
+      "last_name": "Edwards",
+      "avatar": "https://reqres.in/img/faces/11-image.jpg"
+    },
+    {
+      "id": "12",
+      "email": "rachel.howell@reqres.in",
+      "first_name": "Rachel",
+      "last_name": "Howell",
+      "avatar": "https://reqres.in/img/faces/12-image.jpg"
+    }
+  ]
+}

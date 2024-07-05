@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-05T16:51:18 IST" name="Default suite" finished-at="2024-07-05T16:51:22 IST" duration-ms="3585">
+    <groups>
+    </groups>
+    <test started-at="2024-07-05T16:51:18 IST" name="Default test" finished-at="2024-07-05T16:51:22 IST" duration-ms="3585">
+      <class name="com.APITEST.JSONSchemaValidator">
+        <test-method signature="testGet()[pri:0, instance:com.APITEST.JSONSchemaValidator@1623b78d]" started-at="2024-07-05T16:51:19 IST" name="testGet" finished-at="2024-07-05T16:51:22 IST" duration-ms="3514" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGet -->
+      </class> <!-- com.APITEST.JSONSchemaValidator -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

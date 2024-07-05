@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <center><h2>REGISTRATION FORM</h2></center>
+    <center>
+    <form method="post">
+        <div>
+       <label for="fname">First Name:</label>
+       <input type="text" id="fname"name="fname" placeholder="Enter your First Name" required minlength="3"maxlength="20" pattern="^[A-Za-z](3-20_)$"><br><br>
+       <label for="lname">Last Name :</label>
+       <input type="text" id="lname"name="lname" placeholder="Enter Your Last Name" required min="3" maxlength="20" pattern="^[A-Za-z](3-20_)$"><br><br>
+        </div>
+
+        <div>
+         <Label for="Password">Password   :</Label>
+         <input type="password" required name="pass" id="pass" placeholder="Enter your Password"><br><br>
+        </div>
+        <div>
+            <label for="email">Email      :</label>
+            <input type="email" required id="email" name="email" placeholder="Enter your email"><br><br>
+        </div>
+        <div>
+            <label for="Contact No:">Contact No    :</label>
+            <input type="tel" required id="Contact" name="Contact" placeholder="Enter your Contact No"><br><br>
+        </div>
+        <div>
+            <label for="DOB">Date of Birth   :</label>
+            <input type="date" name="dob" id="dob" required><br><br>
+        </div>
+        <div>
+            <label for="age"> Select Age    :    </label>
+            <input type="number" required min="18" max="60"><br><br>
+
+        </div>
+        <div>
+             <label for="Gender">Select Your Gender:</label>
+             <input type="radio" name="Gender" id="Gender" value="Male">Male
+             <input type="radio" name="Gender"id="Gender" value="Female">Female
+             <input type="radio" name="Gender"id="Gender" value="Others">Others
+        </div><br><br>
+        <div>
+            <label for="eduacation">Selct your Highest QualificationL:</label>
+            <input type="checkbox" name="edu" id="edu" value="SSLC">SSLC
+            <input type="checkbox" name="edu" id="edu" value="HSC">HSC
+            <input type="checkbox" name="edu" id="edu" value="UG">UG
+            <input type="checkbox" name="edu" id="edu" value="PG">PG
+        </div><br><br>
+        <div>
+            <label for="Course">Select your Course</label>
+            <select name="Course" id="Course">
+                <option value="Select Your Choice">Select Your Choice</option>
+                <option value="JAVA">JAVA</option>
+                <option value="Python">Python</option>
+                <option value="Angular">Angular</option>
+                <option value="React JS">React JS</option>
+                <option value="Java Script">Java Script</option>
+            </select>
+
+            
+        </div>
+        <br><br>
+        <button type="submit">submit</button>
+        <button type="reset">reset</button>
+    </form>
+    </center>
+</body>
+</html>
