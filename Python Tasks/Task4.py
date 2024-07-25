@@ -2,15 +2,18 @@ def main():
     string=input("Enter the String : ")
     size=len(string)
     print(size)
-    dict={}
+    vis=[False for i in range(len(string))]
+    print(vis)
     
     for i in range(size):
      count=0
-     for j in range(size):
+     if vis[i]==False: 
+      for j in range(size):
         if(string[i]==string[j]):
+          vis[j]=True         
           count=count+1
-     dict[string[i]]=count 
-    print(dict)
+      print(f'{string[i]} : {count} ')
+    
                  
 
 if __name__=="__main__":
