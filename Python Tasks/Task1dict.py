@@ -19,7 +19,6 @@ def display(menu):
         print(f"\n#### {i} ####")
         for j in menu[i]:
             print(f"- {j}")
-    print("\n----------------")
 
 def update(menu):
     ind=1

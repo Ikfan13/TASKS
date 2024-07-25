@@ -9,7 +9,7 @@ def main():
      count=0
      if vis[i]==False: 
       for j in range(size):
-        if(string[i]==string[j]):
+        if(string[i].upper()==string[j].upper()):
           vis[j]=True         
           count=count+1
       print(f'{string[i]} : {count} ')
